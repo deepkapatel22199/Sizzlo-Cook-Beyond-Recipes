@@ -25,16 +25,14 @@
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "backgroundColor": "#208AEF",
-          "android": {
-            "image": "./assets/images/splash-icon.png",
-            "imageWidth": 76
-          }
-        }
-      ]
+     [
+      "expo-splash-screen",
+      {
+        "backgroundColor": "#FFFDF8",
+        "image": "./assets/images/sizzlo-splash.png",
+        "imageWidth": 200
+      }
+    ]
     ],
     "experiments": {
       "typedRoutes": true,
