@@ -5,7 +5,7 @@ import { router } from 'expo-router';
 export default function SplashScreen() {
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.replace('/');
+      router.replace('/onboarding');
     }, 2500);
 
     return () => clearTimeout(timer);
